@@ -31,7 +31,7 @@ Generic Keys はこれらを
 
 ---
 
-### Action 중심 / Path ベース
+### Path ベースの操作
 
 操作はパスで表現されます：
 
