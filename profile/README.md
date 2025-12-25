@@ -1,8 +1,3 @@
-以下は **generic-keys Organization 配下に置く `.github` リポジトリ用 README** のたたきです。
-Organization のトップページに表示されることを前提に、思想・全体像・各リポジトリへの導線を重視しています。
-
----
-
 # Generic Keys
 
 **Generic Keys** は、
@@ -43,8 +38,8 @@ Generic Keys はこれらを
 ```
 /general/undo
 /general/redo
-/view/zoom
-/object/transform/move
+/app/view/zoom
+/app/object/transform/move
 ```
 
 * REST / OSC / Express 風の階層構造
