@@ -87,23 +87,6 @@ Generic Keys 自体は **通信手段を持ちません**。
 
 ---
 
-### 🔌 Transport 実装
-
-* `generic-keys-transport-osc`
-* `generic-keys-transport-mqtt`
-* `generic-keys-transport-ws`
-* etc.
-
----
-
-### 🧪 Reference / Example
-
-* `generic-keys-example-blender`
-* `generic-keys-example-cli`
-* `generic-keys-example-device`
-
----
-
 ### ⌨️ Integration / Tooling
 
 * Keybind YAML
@@ -119,6 +102,7 @@ Generic Keys 自体は **通信手段を持ちません**。
 * 左手デバイス・フットペダル・自作キーボードをアプリ横断で使いたい
 * VR / AR / 3D 制作で操作の一貫性を保ちたい
 * キーバインドを **共有・バックアップ・バージョン管理**したい
+* 簡単にMCPサーバーを実装したい
 * GUI を持たないアプリでも「操作」を公開したい
 
 ---
