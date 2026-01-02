@@ -6,8 +6,6 @@
 キーボード、マウス、ゲームパッド、タブレット、OSC、MIDI、ネットワーク入力など
 **あらゆる入力を「何をしたいか（Intent）」として統一的に扱う**ことを目的としています。
 
----
-
 ## 🎯 何を解決するのか
 
 * アプリごとにバラバラなキーバインド
@@ -19,8 +17,6 @@ Generic Keys はこれらを
 **「操作は UI とは独立した第一級の概念である」**
 という立場で再設計します。
 
----
-
 ## 🧠 基本思想
 
 ### 操作は UI ではなく PUI（Physical User Interface）
@@ -29,7 +25,6 @@ Generic Keys はこれらを
 * Generic Keys が扱うのは **操作（redo / undo / zoom / move / rotate …）**
 * UI・GUI・TUI・CLI・ネットワークはすべて同列のプレゼンテーション層
 
----
 
 ### Path ベースの操作
 
@@ -46,8 +41,6 @@ Generic Keys はこれらを
 * アプリ・デバイス非依存
 * 列挙・補完・検証が可能
 
----
-
 ### トランスポート非依存
 
 Generic Keys 自体は **通信手段を持ちません**。
@@ -59,8 +52,6 @@ Generic Keys 自体は **通信手段を持ちません**。
 * In-process
 
 など、用途に応じて差し替え可能です。
-
----
 
 ## 🧩 構成リポジトリ
 
@@ -75,8 +66,6 @@ Generic Keys 自体は **通信手段を持ちません**。
   * Payload / StatusCode
   * ライフサイクル（hi / die / focus）
 
----
-
 ### 🧠 Core / SDK
 
 * `generic-keys-core`
@@ -85,16 +74,12 @@ Generic Keys 自体は **通信手段を持ちません**。
   * Action / Axis / Value モデル
   * Serializer / Transport インターフェース
 
----
-
 ### ⌨️ Integration / Tooling
 
 * Keybind YAML
 * Catalog / Operator List
 * Converter / Validator
 * CLI / Debug tools
-
----
 
 ## ✨ ユースケース例
 
@@ -105,19 +90,12 @@ Generic Keys 自体は **通信手段を持ちません**。
 * 簡単にMCPサーバーを実装したい
 * GUI を持たないアプリでも「操作」を公開したい
 
----
-
 ## 🚧 ステータス
 
 * 🧪 Experimental
 * 仕様・API は流動的です
 * 破壊的変更を含む可能性があります
 
-ただし、
-
-> **思想と方向性は安定しています**
-
----
 
 ## 🤝 コントリビュート
 
@@ -125,14 +103,10 @@ Generic Keys 自体は **通信手段を持ちません**。
 * 実装言語は問いません
 * Transport / Example / Adapter だけの追加も歓迎します
 
----
-
 ## 📜 ライセンス
 
 * 各リポジトリに準拠
   （基本は MIT / Apache-2.0 を想定）
-
----
 
 ## 🔑 最後に
 
