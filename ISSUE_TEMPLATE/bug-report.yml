@@ -1,0 +1,56 @@
+name: 🐛 バグ報告
+description: 問題を報告して改善に協力してください
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        バグの報告ありがとうございます！正確な情報を提供いただくことで、迅速な修正が可能になります。
+  - type: textarea
+    id: description
+    attributes:
+      label: 問題の説明
+      description: 何が起きているのかを簡潔に説明してください
+      placeholder: 例）ログインボタンを押しても反応しない
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 再現手順
+      description: バグを再現するための手順を記載してください
+      placeholder: |
+        1. '...' に行く
+        2. '....' をクリックする
+        3. エラーが発生する
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 期待される挙動
+      description: 本来どうなるべきだったかを記載してください
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 使用ブラウザ
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - その他
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 確認事項
+      options:
+        - label: 最新バージョンを利用していますか？
+          required: true
+        - label: 既存の Issue で同じ内容がないか確認しましたか？
+          required: true

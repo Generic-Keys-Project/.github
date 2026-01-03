@@ -1,0 +1,30 @@
+name: 🚀 機能要望
+description: 新しいアイデアを提案する
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解決したい課題
+      description: 現在、どのような不便さや課題がありますか？
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 提案する解決策
+      description: どのような機能が欲しいか、具体的に説明してください
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 代替案
+      description: 他に検討した方法や、現在行っている回避策があれば教えてください
+  - type: checkboxes
+    id: help
+    attributes:
+      label: 実装への協力
+      options:
+        - label: 自分がこの機能の実装に取り組むことができます
