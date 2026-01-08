@@ -49,7 +49,7 @@ Generic Keys 自体は **通信手段を持ちません**。
 * MQTT
 * WebSocket
 * StdIO
-* In-process
+* IPC
 
 など、用途に応じて差し替え可能です。
 
@@ -59,7 +59,7 @@ Generic Keys 自体は **通信手段を持ちません**。
 
 ### 📐 Specification
 
-* `generic-keys-spec`
+* `generic-keys-protocl`
 
   * プロトコル仕様
   * パス設計
@@ -68,8 +68,8 @@ Generic Keys 自体は **通信手段を持ちません**。
 
 ### 🧠 Core / SDK
 
-* `generic-keys-core`
-
+* `generic-keys-{language}`
+(各言語の命名規則に沿います)
   * Host / Client 抽象
   * Action / Axis / Value モデル
   * Serializer / Transport インターフェース
